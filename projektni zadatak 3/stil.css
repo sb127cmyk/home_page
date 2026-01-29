@@ -1,0 +1,41 @@
+@font-face {
+  font-family: SaraBarbaric;
+  src: url(SaraBarbaric.ttf) format(truetype);
+  font-weight: 300;
+}
+h1 {
+  font-family: SaraBarbaric;
+  color: hotpink;
+}
+h2 {
+  color: hotpink;
+}
+.nav {
+  list-style: none;          
+  padding: 0;
+  margin: 40px;
+  display: flex;             
+  gap: 20px;                 
+}
+.nav li a {
+  display: block;
+  padding: 20px 40px;
+  background-color: hotpink;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border: 3px solid skyblue;
+  font-family: Arial, sans-serif;
+}
+.pozadina {
+  background-image: url(slike/pozadina.jpg);
+  background-size: cover;
+
+}
+p {
+  color: black;
+  font-size: 16px;
+  line-height: 18px;
+  width: 800px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
